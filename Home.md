@@ -6,7 +6,7 @@ This will allow you to setup a fully automated DevOps pipeline so you can delive
 
 ## VSTS Build & Release Tasks
 
-The **xRM CI Framework** provides you with VSTS Build and Release tasks. You can combine these tasks with other tasks to create build and release definitions to meet your project needs.
+The **xRM CI Framework** provides you with VSTS Build and Release tasks. You can combine these tasks with other tasks to create build and release definitions to meet your project needs. If you are using VSTS this is the quickest and easiest way to get up and running.
 
 Below is a list of tasks that is included with the **xRM CI Framework**
 
@@ -14,7 +14,7 @@ Below is a list of tasks that is included with the **xRM CI Framework**
 
 ## Sample PowerShell Scripts for Dynamics CRM
 
-These are sample scripts demonstrate how to use some of the PowerShell Cmdlets provided with this framework and the Dynamics CRM SDK. You can execute these scripts from your workstation, from your Build/CI System (VSTS, Jenkins, etc...) and from your Release Automation Tools (VSTS, CA Lisa, etc...)
+These are sample scripts that demonstrate how to use some of the PowerShell Cmdlets provided with this framework and the Dynamics CRM SDK. You can execute these scripts from your workstation, from your Build/CI System (VSTS, Jenkins, Team City, etc...) and from your Release Automation Tools (VSTS, CA Lisa, etc...). These scripts implement the typical scenarios you will need to automate your builds and releases.
 
 Below is a list of some of the main sample scripts:
 * [Import Solution](https://github.com/WaelHamze/xrm-ci-framework/blob/master/CRM365/Xrm.Framework.CI/Xrm.Framework.CI.PowerShell.Scripts/ImportSolution.ps1) - Imports a CRM solution, including error handling, downloading import logs and checking existing versions
